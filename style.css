@@ -76,8 +76,8 @@ p {
     border-radius: 3vh;
 }
 #chamada{
-    top: -15vh;
-    position: relative;
+   
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,14 +96,13 @@ p {
 }
 #representaMobile{
     position: relative;
+    top: -10vh;
     width: 10vw;
     margin-left: 10vw;
     box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 2vh;
 }
 .btn-whatsapp {
-    position: relative;
-    bottom: 10vh;
     background-color: #1a9548;
     color: white;
     width: 30vw;
