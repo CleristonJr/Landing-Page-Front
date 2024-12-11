@@ -25,17 +25,17 @@ body {
 }
 
 #tri1{
-    height: 10vh;
+    height: 10vw;
     top: 10vh;
     right: 10vw;
 }
 #tri2{
-    height: 15vh;
+    height: 15vw;
     top: 30vh;
     right: 20vw;
 }
 #tri3{
-    height: 8vh;
+    height: 8vw;
     top: 75vh;
     right: 7vw;
 }
@@ -44,7 +44,6 @@ body {
     margin-top: 3vh;
     color: #5CC6D0;
     font-size: 6vh;
-    margin-left: -20vw;
 }
 .titulo{
     color: white;
@@ -124,25 +123,24 @@ footer {
 }
 
 @media (max-width: 1080px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    #setaBack{
+        display: none;
     }
+    
     #titulo{
         text-align: left;
-        font-size: 5vw;
-        width: 70vw;
-        margin-left: -10vw;
+        font-size: 7vw;
+        width: 80vw;
+        margin-left: 0;
     }
     #representaDesk{
         height: auto;
         width: 30vw;
         border-radius: 1vw;
+        margin-left: 0;
     }
     #representaMobile{
-        height: 25vw;
+        left: -20vw;
         border-radius: 1vw;
         margin: auto;
     }
@@ -150,35 +148,43 @@ footer {
         top: auto;
         bottom: auto;
         display: flex;
-        margin: auto;
+        margin: 3vw;
     }
     #chamadaPara{
-        margin-top: 0vw;
+        margin-top: 8vw;
         margin-left: 0vw;
-        font-size: 4vw;
+        font-size: 5vw;
+    }
+    #chamadaPara span{
+        font-size: 7vw;
     }
     #apresentacao{
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        margin: 0;
     }
     h2{
-        font-size: 4vw;
+        font-size: 7vw;
     }
     h4{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     p {
-        font-size: 3vw;
+        font-size: 4vw;
+        text-align: center;
         margin: 3vw;
+        margin-bottom: 8vw;
         width:70vw ;
     }
     .btn-whatsapp {
         position: unset;
         margin-top: 3vw;
         width: 70vw;
-        height: 8vw;
+        height: 10vw;
         border-radius: 1vw;
-        font-size: 3vw;
+        font-size: 5vw;
         box-shadow: -1vw -1vw 2vw rgba(0, 0, 0, 0.5);
         
     }
