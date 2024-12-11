@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(135deg, #000, rgb(41, 41, 41));
+    align-items: center;
+    
+}
+.background-image { 
+    position: fixed; 
+    z-index: -1;  /* Ajuste a opacidade conforme necessário */
+}
+
+#setaBack{
+    height: 100vh;
+    max-width: 100vw;
+    right: 30vw;
+}
+
+#tri1{
+    height: 10vh;
+    top: 10vh;
+    right: 10vw;
+}
+#tri2{
+    height: 15vh;
+    top: 30vh;
+    right: 20vw;
+}
+#tri3{
+    height: 8vh;
+    top: 75vh;
+    right: 7vw;
+}
+
+#titulo{
+    margin-top: 3vh;
+    color: #5CC6D0;
+    font-size: 6vh;
+    margin-left: -50vh;
+}
+.titulo{
+    color: white;
+}
+#apresentacao{
+    margin-left: 5vh;
+    display: flex;
+}
+h2{
+    margin-top: 8vh;
+    color: #5CC6D0;
+    font-size: 5vh;
+}
+h4{
+    color: #8B567D;
+    font-size: 3vh;
+}
+p {
+    font-size: 3vh;
+    color: #9DD3AF;
+    margin-top: 3vh;
+    width:35vw ;
+}
+#representaDesk{
+    height: 40vh;
+    margin-left: 20vw;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3vh;
+}
+#chamada{
+    top: -15vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#chamadaPara{
+    margin-top: 10vh;
+    color: #5CC6D0 ;
+    margin-left: 10vw;
+    font-size: 4vh;
+    text-align: right;
+}
+#chamadaPara span{
+    font-size: 5vh;
+    font-weight: bolder;
+    color: #9DD3AF;
+}
+#representaMobile{
+    position: relative;
+    height: 40vh;
+    margin-left: 20vw;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2vh;
+}
+.btn-whatsapp {
+    position: relative;
+    bottom: 20vh;
+    background-color: #1a9548;
+    color: white;
+    width: 30vw;
+    height: 7.5vh;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 3vh;
+    display: inline-block;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-content: center;
+}
+.btn-whatsapp:hover {
+    background-color: #20b45b;
+}
+footer {
+    font-size: 14px;
+    color: #ded8d8;
+}
