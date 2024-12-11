@@ -122,7 +122,7 @@ footer {
     color: #ded8d8;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 100vh) and (min-height: 100vh) {
     #setaBack{
         display: none;
     }
@@ -149,6 +149,7 @@ footer {
         bottom: auto;
         display: flex;
         margin: 3vw;
+        
     }
     #chamadaPara{
         margin-top: 8vw;
